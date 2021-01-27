@@ -15,7 +15,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegat
     @IBOutlet weak var exchangeValue: UILabel!
     @IBOutlet weak var enterValue: UITextField!
     
-    let exchange = ["USA", "Japan"]
+    let exchange = ["USA", "Japan", "China"]
     var value = 0.0
     var result = "0.0"
     

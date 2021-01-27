@@ -35,5 +35,10 @@ struct CalculateBrain {
             let unit = "Yen"
             exchange = Exchange(country: country, exchangeValue: cal, unit: unit)
         }
+        else if country == "China" {
+            let cal = 0.0059 * exchangeValue
+            let unit = "Wian"
+            exchange = Exchange(country: country, exchangeValue: cal, unit: unit)
+        }
     }
 }
